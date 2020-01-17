@@ -67,7 +67,7 @@ Continue::
     sudo service nginx reload
     
     # Supervisor
-    sudo cp /home/dsmr/dsmr-reader/dsmrreader/provisioning/supervisor/dsmr-reader.conf /etc/supervisor/conf.d/
+    sudo cp /home/dsmr/dsmr-reader/dsmrreader/provisioning/supervisor/dsmr*.conf /etc/supervisor/conf.d/
     sudo supervisorctl reread
     sudo supervisorctl update
     
